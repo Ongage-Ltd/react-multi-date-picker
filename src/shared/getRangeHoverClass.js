@@ -38,6 +38,9 @@ export default function getRangeHoverClass(
       if (strDay === strHovered) {
         names.push(strHovered > strSelected ? "end" : "start");
       }
+      if (strDay === strSelected) {
+        names.push(strHovered > strSelected ? "start" : "end");
+      }
 
       if (
         isArray(selectedDate) &&
