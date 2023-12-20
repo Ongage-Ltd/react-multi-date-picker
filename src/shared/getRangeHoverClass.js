@@ -30,6 +30,7 @@ export default function getRangeHoverClass(
     }
 
     if (
+      (strDay === strSelected) ||
       (strDay > strSelected && strDay <= strHovered) ||
       (strDay < strSelected && strDay >= strHovered)
     ) {
