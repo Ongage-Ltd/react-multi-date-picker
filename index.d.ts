@@ -1,4 +1,4 @@
-declare module "react-multi-date-picker" {
+declare module "@v_zharikov/react-multi-date-picker" {
   import React, { HTMLAttributes } from "react";
   import DateObject, { Calendar, Locale } from "react-date-object";
 
